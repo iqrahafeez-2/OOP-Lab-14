@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="395.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ooplab14.SceneController">
+    <children>
+        <Button layoutX="97.0" layoutY="235.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="149.0" text="Register">
+            <font>
+                <Font name="Arial" size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="134.0" layoutY="309.0" mnemonicParsing="false" onAction="#switchTologin" prefHeight="29.0" prefWidth="76.0" text="Sign-In">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="14.0" layoutY="86.0" text="Username" />
+        <Label layoutX="16.0" layoutY="129.0" text="Password" />
+        <Label layoutX="8.0" layoutY="175.0" text="Confirm password" />
+        <PasswordField layoutX="163.0" layoutY="171.0" />
+        <PasswordField layoutX="163.0" layoutY="125.0" />
+        <TextField layoutX="163.0" layoutY="82.0" />
+        <Label layoutX="14.0" layoutY="14.0" text="Registeration Form">
+            <font>
+                <Font name="Arial" size="19.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
