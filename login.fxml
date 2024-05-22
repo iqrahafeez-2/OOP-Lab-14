@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ooplab14.LoginController">
+  <children>
+    <Label layoutX="14.0" layoutY="99.0" text="Username">
+      <font>
+        <Font name="Arial" size="15.0" />
+      </font>
+    </Label>
+    <Label layoutX="16.0" layoutY="192.0" text="Password">
+      <font>
+        <Font name="Arial" size="15.0" />
+      </font>
+    </Label>
+    <PasswordField fx:id="passwordField" layoutX="14.0" layoutY="215.0" />
+    <TextField fx:id="usernameField" layoutX="14.0" layoutY="124.0" />
+    <Button layoutX="44.0" layoutY="299.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="Login" onAction="#handleLogin">
+      <textFill>
+        <RadialGradient centerX="0.4558011049723757" centerY="0.5" focusDistance="-0.11494252873563215" radius="1.0">
+          <stops>
+            <Stop>
+              <color>
+                <Color />
+              </color>
+            </Stop>
+            <Stop offset="0.4914089347079038">
+              <color>
+                <Color />
+              </color>
+            </Stop>
+            <Stop offset="1.0">
+              <color>
+                <Color red="1.0" green="1.0" blue="1.0" />
+              </color>
+            </Stop>
+          </stops>
+        </RadialGradient>
+      </textFill>
+      <font>
+        <Font name="Arial" size="17.0" />
+      </font>
+    </Button>
+    <Label layoutX="14.0" layoutY="14.0" text="Login Form">
+      <font>
+        <Font name="Arial" size="27.0" />
+      </font>
+    </Label>
+    <Button layoutX="283.0" layoutY="327.0" mnemonicParsing="false" onAction="#switchToregister" text="Register" />
+  </children>
+</Pane>
